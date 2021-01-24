@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - BorderDownTrigger
     - BottlePoint
     - Bullet
+    - BulletEnemy
     - CameraFollow
     - Enemy
     - EnemyController
@@ -107,31 +108,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12308}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 12490}
+      Script: {instanceID: 12488}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 12780}
+      Script: {instanceID: 12778}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 13538}
     - Class: 114
-      Script: {instanceID: 13656}
+      Script: {instanceID: 13652}
     - Class: 114
-      Script: {instanceID: 13674}
+      Script: {instanceID: 13670}
     - Class: 114
-      Script: {instanceID: 13722}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 13752}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 14156}
+      Script: {instanceID: 14152}
     - Class: 114
-      Script: {instanceID: 14276}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14284}
     - Class: 114
-      Script: {instanceID: 15104}
+      Script: {instanceID: 17598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -202,25 +203,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 12780}
+      Script: {instanceID: 12778}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 13538}
     - Class: 114
-      Script: {instanceID: 13656}
+      Script: {instanceID: 13652}
     - Class: 114
-      Script: {instanceID: 13722}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 13752}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 14034}
+      Script: {instanceID: 14030}
     - Class: 114
-      Script: {instanceID: 14156}
+      Script: {instanceID: 14152}
     - Class: 114
-      Script: {instanceID: 14276}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14284}
+    - Class: 114
+      Script: {instanceID: 17598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -267,11 +270,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12186}
     - Class: 114
-      Script: {instanceID: 13656}
+      Script: {instanceID: 13652}
     - Class: 114
-      Script: {instanceID: 14276}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 14342}
+      Script: {instanceID: 14338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -501,7 +504,7 @@ ScriptsOnlyBuild:
     className: FallingPlatform
   - hash:
       serializedVersion: 2
-      Hash: 9ae0f51f9336cc492c68d9db79434500
+      Hash: 8a6b039e6fac3dc7375da28ca4a1d060
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyController
@@ -877,9 +880,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1d24b7db930cb6cb3bbf9532190a586c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletEnemy
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level_1.unity
   - Assets/Scenes/Level_2.unity
-  playerPath: E:/Portfolio/Bild2/The_witch_and_The_bottle.exe
+  playerPath: E:/Portfolio/Bild3/The_witch_and_The_bottle.exe

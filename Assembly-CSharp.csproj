@@ -68,6 +68,7 @@
     <Compile Include="Assets\Skripts\BorderDownTrigger.cs" />
     <Compile Include="Assets\Skripts\BottlePoint.cs" />
     <Compile Include="Assets\Skripts\Bullet.cs" />
+    <Compile Include="Assets\Skripts\BulletEnemy.cs" />
     <Compile Include="Assets\Skripts\CameraFollow.cs" />
     <Compile Include="Assets\Skripts\Enemy.cs" />
     <Compile Include="Assets\Skripts\EnemyController.cs" />
